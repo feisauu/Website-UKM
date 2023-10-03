@@ -260,13 +260,14 @@ Data anggota dan catatan kegiatan UKM disimpan dengan enkripsi yang kuat dan han
 
 Lampiran B: Analisa Model
 <br> Flowchart
-![alt text](https://github.com/feisauu/Website-UKM/blob/main/gambar_srs/flowchart.jpg)
+
+<img src="gambar_srs/flowchart2.jpg" width=30% height=30%>
 <br> Entity Relationship Diagram 
-![alt text](https://github.com/feisauu/Website-UKM/blob/main/gambar_srs/erd.jpg)
+<img src="gambar_srs/erd.jpg">
 <br> Use Case
-![alt text](https://github.com/feisauu/Website-UKM/blob/main/gambar_srs/usecase.jpg)
+<img src="gambar_srs/usecase.jpg">
 <br> Class Diagram
-![alt text](https://github.com/feisauu/Website-UKM/blob/main/gambar_srs/classdiagram.jpg)
+<img src="gambar_srs/classdiagram.jpg">
 Lampiran C: Daftar yang akan ditentukan
 <p>Daftar yang ditentukan dalam website UKM dapat bervariasi tergantung pada jenis UKM, tujuan website, dan kebutuhan anggota serta pengguna lainnya. Namun, berikut adalah beberapa jenis daftar yang umumnya ditemukan dalam website UKM:
 Daftar Anggota
