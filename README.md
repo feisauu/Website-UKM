@@ -22,48 +22,6 @@ Universitas Negeri Surabaya
 
 Tahun 2023
 
-<br> Daftar Isi
-<br> 1.  Pendahuluan	
-<br> 1.1	Tujuan Penulisan Dokumen	
-<br> 1.2	Konvensi Dokumen	
-<br> 1.3	Audien yang Dituju dan Pembaca yang Disarankan	
-<br> 1.4	Lingkup Produk	
-<br> 1.5	Referensi	
-<br> 2.	Deskripsi Keseluruhan	
-<br> 2.1	Perspektif Produk	
-<br> 2.2	Fungsi Produk	
-<br> 2.3	Kelas dan Karakteristik Pengguna	
-<br> 2.4	Lingkungan Operasi	
-<br> 2.5	Kendala Desain dan Implementasi	
-<br> 2.6	Dokumentasi Pengguna	
-<br> 2.7	Asumsi dan Ketergantungan	8
-<br> 3.	Kebutuhan Antarmuka Eksternal	9
-<br> 3.1	Antarmuka Pengguna	9
-<br> 3.2	Antarmuka Perangkat Keras	10
-<br> 3.3	Antarmuka Perangkat Lunak	10
-<br> 3.4	Antarmuka Komunikasi	11
-<br> 4.	Fitur Sistem dan Kerangka Desain Fitur	12
-<br> 4.1	Halaman Daftar	12
-<br> 4.2	Halaman Login	13
-<br> 4.3	Halaman Beranda	14
-<br> 4.4	Halaman Drop Off	15
-<br> 4.5	Halaman Pick Up	16
-<br> 4.6	Halaman Reedem	17
-<br> 4.7	Halaman Riwayat Penukaran	18
-<br> 4.8	Halaman Pesan	19
-<br> 4.9	Halaman Profil	20
-<br> 5.	Persyaratan Nonfungsional Lainnya	21
-<br> 5.1	Persyaratan Kinerja	21
-<br> 5.2	Persyaratan Keselamatan	21
-<br> 5.3	Persyaratan Keamanan	22
-<br> 5.4	Atribut Kualitas Perangkat Lunak	22
-<br> 5.5	Atribut Bisnis	23
-<br> 6.	Persyaratan Lainnya	24
-<br> Lampiran A: Glosarium	24
-<br> Lampiran B: Analisa Model	25
-<br> Lampiran C: Daftar yang akan ditentukan	28
-
-
 1. Pendahuluan<br>
 1.1 Tujuan Penulisan Dokumen
 <p>Dokumen SKPL ini bertujuan untuk menciptakan panduan bagi tim pengembangan dalam membangun website yang efisien dan sesuai dengan kebutuhan UKM. Dokumen ini juga akan membantu dalam memastikan bahwa website UKM dapat menyediakan informasi yang lengkap dan terbaru tentang kegiatan, jadwal, dan berita terkini terkait UKM, meningkatkan efektivitas dalam mempromosikan kegiatan serta prestasi UKM kepada anggota mahasiswa, calon anggota, dan masyarakat umum, menyediakan informasi yang lengkap dan terbaru tentang kegiatan, jadwal, dan berita terkini terkait UKM. Selain itu, dokumen ini akan memainkan peran penting dalam mengelola pengembangan agar website berfungsi dengan baik sesuai harapan pengguna. Dengan demikian, tujuan utama dokumen ini adalah memastikan bahwa website UKM bisa menjadi alat yang efektif dalam mencapai tujuan dan visi UKM di lingkungan perguruan tinggi. </p>
