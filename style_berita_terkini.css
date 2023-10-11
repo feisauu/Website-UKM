@@ -209,6 +209,18 @@ section{
     text-decoration: underline;
 }
 
+#beritaTerkini{
+    padding: 20px 0 5px 0;
+}
+
+#beritaTerkini .judul{
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 100px;
+    color: #ff7800;
+}
+
 .Berita {
     width: 280px; 
     text-align: center; 
@@ -222,7 +234,7 @@ section{
   display: block;
   width: 100%;
   max-width: 500px;
-  aspect-ratio: 4/3;
+  aspect-ratio:  4/3;
   object-fit: cover;
   object-position: 50% 50%;
   border-radius: 16px 16px 0 0;
