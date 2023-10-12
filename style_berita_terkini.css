@@ -29,7 +29,7 @@ html{
 }
 
 body{
-    background: #eeee;
+    background: #d3dde2;
 }
 
 section{
@@ -218,14 +218,14 @@ section{
     font-size: 32px;
     text-align: center;
     margin-top: 100px;
-    color: #ff7800;
+    color: #0D1282;
 }
 
 .Berita {
     width: 280px; 
     text-align: center; 
     padding: 20px 15px 20px;
-    margin: 70px 20px 20px 55px; 
+    margin: 10px 20px 20px 55px; 
     border-radius: 10px;
     float: left;
 }
@@ -238,12 +238,12 @@ section{
   object-fit: cover;
   object-position: 50% 50%;
   border-radius: 16px 16px 0 0;
-  filter: contrast(70%);
+  filter: contrast(85%);
   transition: all 0.6s cubic-bezier(0.43, 0.41, 0.22, 0.91);
 }
 
 .Berita > img:hover {
-  filter: contrast(120%);
+  filter: contrast(105%);
 }
 
 .content {
@@ -261,14 +261,107 @@ section{
 }
 
 .content > p:nth-child(1) {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #1e40af;
 }
 
 .content > p:nth-child(2) {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 400;
-  color: #6b7280;
+  color: black;
 }
+
+.lain {
+    display: grid;
+    grid-template-columns: 1fr; /* Satu kolom */
+    gap: 10px; /* Jarak antar elemen */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .tanggal {
+    border-bottom: 1px solid #ccc; /* Garis pemisah antar berita */
+  }
+  
+  .tanggal h3 {
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  .tanggal img {
+    max-width: 100%;
+    height: auto;
+    filter: contrast(85%);
+  }
+
+  .tanggal img:hover{
+    filter: contrast(105%);
+  }
+  
+  .tanggal p {
+    margin: 10px 0;
+  }
+  
+  .medsos {
+    border: 1px solid #ccc; /* Garis pemisah antar elemen */
+    padding: 10px; /* Ruang dalam berita */
+  }
+  
+  .medsos h3 {
+    font-size: 20px;
+  }
+  
+  .isiMedsos a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .posBaru {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Gaya untuk gambar di dalam elemen posBaru */
+  .posBaru img {
+    max-width:50%;
+    filter: contrast(85%);
+  }
+
+  .posBaru img:hover {
+    filter: contrast(105%);
+  }
+  
+  /* Gaya untuk judul dan paragraf di dalam elemen posBaru */
+  .posBaru h2, .posBaru p {
+    margin: 0;
+  }
+  
+  /* Gaya untuk tombol "Read More" */
+  .button a {
+    text-decoration: none;
+    color: orange;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+  
+  /* Gaya untuk tombol "Previous" dan "Next" */
+  .halaman li {
+    display: inline;
+    text-align: center;
+  }
+  
+  .halaman a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 20px 90px;
+  }
+  
+  /* Gaya untuk gambar ikon medsos */
+  .fab {
+    font-size: 24px;
+  }
