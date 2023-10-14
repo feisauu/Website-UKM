@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-:root{
+:root {
     --orange: #ff7800;
     --black: #130f40;
     --light-color: #666;
-    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-    --border: .2rem solid rgba(0,0,0,.1);
-    --outline: .1rem solid rgba(0,0,0,.1);
-    --outline-hover: .6rem solid rgba(0,0,0,.1);
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    --border: .2rem solid rgba(0, 0, 0, .1);
+    --outline: .1rem solid rgba(0, 0, 0, .1);
+    --outline-hover: .6rem solid rgba(0, 0, 0, .1);
 }
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -21,22 +21,22 @@
     transition: all .2s linear;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
 
-body{
-    background: #d3dde2;
+body {
+    background: #eeee;
 }
 
-section{
+section {
     padding: 2rem 9%;
 }
 
-.heading{
+.heading {
     text-align: center;
     padding: 2rem 0;
     padding-bottom: 3.5rem;
@@ -44,7 +44,7 @@ section{
     color: var(--black);
 }
 
-.heading span{
+.heading span {
     background: var(--orange);
     color: #fff;
     display: inline-block;
@@ -52,7 +52,7 @@ section{
     clip-path: polygon(100% 0, 93% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
 }
 
-.btn{
+.btn {
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
@@ -64,11 +64,13 @@ section{
     background: none;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--orange);
     color: #fff;
 }
-.header{
+
+/* CSS HEADER */
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -82,27 +84,27 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-.header .logo{
+.header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--black);
 }
 
-.header .logo i{
+.header .logo i {
     color: var(--orange);
 }
 
-.header .navbar a{
+.header .navbar a {
     font-size: 1.7rem;
     margin: 1rem 1rem;
     color: var(--black);
 }
 
-.header .navbar a:hover{
-    color:var(--orange)
+.header .navbar a:hover {
+    color: var(--orange)
 }
 
-.header .icons div{
+.header .icons div {
     height: 4.5rem;
     width: 4.5rem;
     line-height: 4.5rem;
@@ -115,16 +117,16 @@ section{
     text-align: center;
 }
 
-.header .icons div:hover{
+.header .icons div:hover {
     background: var(--orange);
     color: #fff;
 }
 
-#menu-btn{
+#menu-btn {
     display: none;
 }
 
-.header .search-form{
+.header .search-form {
     position: absolute;
     top: 110%;
     right: -110%;
@@ -138,12 +140,12 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-.header .search-form.active{
+.header .search-form.active {
     right: 2rem;
     transition: .4s linear;
 }
 
-.header .search-form input{
+.header .search-form input {
     height: 100%;
     width: 100%;
     background: none;
@@ -153,18 +155,18 @@ section{
     padding: 0 1.5rem;
 }
 
-.header .search-form label{
+.header .search-form label {
     font-size: 2.2.rem;
     padding-right: 1.5rem;
     color: var(--black);
     cursor: pointer;
 }
 
-.header .search-form label:hover{
+.header .search-form label:hover {
     color: var(--orange);
 }
 
-.header .login-form{
+.header .login-form {
     position: absolute;
     top: 110%;
     right: -110%;
@@ -176,18 +178,18 @@ section{
     text-align: center;
 }
 
-.header .login-form.active{
+.header .login-form.active {
     right: 2rem;
     transition: .4s linear;
 }
 
-.header .login-form h3{
+.header .login-form h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--black);
 }
 
-.header .login-form .box{
+.header .login-form .box {
     width: 100%;
     margin: .7rem 0;
     background: #eee;
@@ -198,170 +200,194 @@ section{
     text-transform: none;
 }
 
-.header .login-form p{
+.header .login-form p {
     font-size: 1.4rem;
     padding: .5rem 0;
     color: var(--light-color);
 }
 
-.header .login-form p a{
+.header .login-form p a {
     color: var(--orange);
     text-decoration: underline;
 }
+/* AKHIR CSS HEADER */
 
-#beritaTerkini{
+/* JUDUL */
+#beritaTerkini {
     padding: 20px 0 5px 0;
 }
 
-#beritaTerkini .judul{
+/*  PENGATURAN GRID BERITA LAINNYA & BERITA TERBARU */
+#beritaTerkini .judul {
+    text-align: center;
     text-transform: uppercase;
     font-size: 32px;
-    text-align: center;
     margin-top: 100px;
-    color: #0D1282;
+    color: #F97B22;
 }
 
-.Berita {
-    width: 280px; 
-    text-align: center; 
-    padding: 20px 15px 20px;
-    margin: 10px 20px 20px 55px; 
-    border-radius: 10px;
-    float: left;
+.hot {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.Berita > img {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  aspect-ratio:  4/3;
-  object-fit: cover;
-  object-position: 50% 50%;
-  border-radius: 16px 16px 0 0;
-  filter: contrast(85%);
-  transition: all 0.6s cubic-bezier(0.43, 0.41, 0.22, 0.91);
-}
-
-.Berita > img:hover {
-  filter: contrast(105%);
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 15px 10px;
-  color: #27005D;
-}
-
-.content > p {
-  font-size: 1.6rem;
-  margin-bottom: 10px;
-  margin-bottom: 10px;
-  color: #1e40af;
-}
-
-.content > p:nth-child(1) {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #1e40af;
-}
-
-.content > p:nth-child(2) {
-  font-size: 1rem;
-  font-weight: 400;
-  color: black;
-}
-
-.lain {
-    display: grid;
-    grid-template-columns: 1fr; /* Satu kolom */
-    gap: 10px; /* Jarak antar elemen */
+.lain, .posBaru {
+    flex-basis: 25% 70%;       /*  Sesuaikan lebar sesuai kebutuhan  */
+    box-sizing: border-box;    /*  Pastikan padding tidak mempengaruhi lebar  */
     text-align: center;
-    margin-top: 10px;
-  }
-  
-  .tanggal {
-    border-bottom: 1px solid #ccc; /* Garis pemisah antar berita */
-  }
-  
-  .tanggal h3 {
+}
+
+/* BERITA LAINNYA */
+.lain {
+    width: 30%;
+    background-color: #cdd5f980;
+    margin-left: 10%;    /*  Menambahkan sedikit jarak di antara elemen  */
+}
+
+.tanggal {
+    border-bottom: 1px solid #ccc;    /*  Garis pemisah antar berita  */
+}
+
+.tanggal h3 {
     font-size: 10px;
-    margin: 0;
-  }
-  
-  .tanggal img {
-    max-width: 100%;
+    margin: 9%;
+}
+
+.tanggal img {
+    width: 100%;
     height: auto;
     filter: contrast(85%);
-  }
+}
 
-  .tanggal img:hover{
+.tanggal img:hover {
     filter: contrast(105%);
-  }
-  
-  .tanggal p {
-    margin: 10px 0;
-  }
-  
-  .medsos {
-    border: 1px solid #ccc; /* Garis pemisah antar elemen */
-    padding: 10px; /* Ruang dalam berita */
-  }
-  
-  .medsos h3 {
+}
+
+.tanggal p {
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.medsos {
+    border: 1px solid #ccc;    /* Garis pemisah antar elemen */
+    padding: 10px;     /* Ruang dalam berita */
+}
+
+.medsos h3 {
     font-size: 20px;
-  }
-  
-  .isiMedsos a {
+}
+
+.isiMedsos a {
     margin-right: 10px;
     color: #333;
     text-decoration: none;
     font-size: 24px;
-  }
-  
-  .posBaru {
-    background-color: #f5f5f5;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  
-  /* Gaya untuk gambar di dalam elemen posBaru */
-  .posBaru img {
-    max-width:50%;
-    filter: contrast(85%);
-  }
+}
+/* AKHIR BERITA LAINNYA */
 
-  .posBaru img:hover {
-    filter: contrast(105%);
-  }
-  
-  /* Gaya untuk judul dan paragraf di dalam elemen posBaru */
-  .posBaru h2, .posBaru p {
-    margin: 0;
-  }
-  
-  /* Gaya untuk tombol "Read More" */
-  .button a {
-    text-decoration: none;
-    color: orange;
-    padding: 5px 10px;
-    font-size: 20px;
-  }
-  
-  /* Gaya untuk tombol "Previous" dan "Next" */
-  .halaman li {
-    display: inline;
+/* BERITA TERBARU */
+.posBaru {
+    background-color: rgba(160, 184, 217, 0.518);
+    margin-right: 13%;      /* Menambahkan sedikit jarak di antara elemen  */
+}
+
+.judulBerita h5 {
+    font-size: 30px;
     text-align: center;
-  }
-  
-  .halaman a {
+    margin-right: 13%;
+    color: #ff7800;
+    background-color: #c7c9e380;
+}
+
+.posBaru img {
+    width: 80%;
+    filter: contrast(85%);
+    margin-top: 5%;
+}
+
+.posBaru img:hover {
+    filter: contrast(105%);
+}
+
+.posBaru h2, .posBaru p {
+    margin: 1,5%;
+}
+
+.button a {
     text-decoration: none;
-    color: #007bff;
-    padding: 20px 90px;
-  }
-  
-  /* Gaya untuk gambar ikon medsos */
-  .fab {
-    font-size: 24px;
-  }
+    color: blue;
+    padding: 3px 6px;
+    font-size: 8px;
+}
+
+.halaman li {
+    display: inline;
+}
+
+.halaman a {
+    text-decoration: none;
+    color: #000242;
+    padding: 150px 150px;
+    font-size: 15px;
+}
+
+.fab {
+    font-size: 20px;
+}
+/* AKHIR BERITA TERBARU */
+
+/*  BERITA  */
+
+.Berita {
+    width: 280px;
+    text-align: center;
+    padding: 10px 5px 10px;
+    margin: 10px 10px 10px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.Berita>img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 16px 16px 0 0;
+    filter: contrast(85%);
+    transition: all 0.6s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+
+.Berita>img:hover {
+    filter: contrast(105%);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 10px;
+    color: #27005D;
+}
+
+.content>p {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    color: #1e40af;
+}
+
+.content>p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #1e40af;
+}
+
+.content>p:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 400;
+     color: black;
+} 
+/* AKHIR BERITA */
