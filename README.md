@@ -240,3 +240,8 @@ Pendaftaran Kegiatan </p>
 Daftar kegiatan atau acara yang memerlukan pendaftaran, beserta formulir pendaftaran dan informasi terkait proses pendaftaran.
 Kontak dan Informasi Hubungi
 Daftar informasi kontak UKM, termasuk alamat email, nomor telepon, alamat fisik, atau formulir kontak online untuk pertanyaan atau permintaan informasi.
+
+
+
+Penjelasan Kode
+https://github.com/feisauu/Website-UKM/files/13121739/Dokumentasi.dan.Penjelasan.Source.Code.Website.UKM.docx
