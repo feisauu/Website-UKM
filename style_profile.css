@@ -296,6 +296,7 @@ section{
     flex-wrap: wrap;
     border-radius: 3rem;
     padding: 3rem;
+    box-shadow: var(--box-shadow);
 }
 
 .contact .row .map{
