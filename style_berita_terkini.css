@@ -52,6 +52,13 @@ section {
     clip-path: polygon(100% 0, 93% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
 }
 
+.font{
+    margin-left: 5rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color: var(--black);
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -320,7 +327,6 @@ section {
     padding: 3px 6px;
     font-size: 8px;
 }
-
 .fab {
     font-size: 20px;
 }
