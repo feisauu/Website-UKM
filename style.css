@@ -259,6 +259,7 @@ border-bottom-right-radius: 15px;
     box-shadow: var(--box-shadow);
     border-radius: 5rem;
     margin-top: 3%;
+    
 }
 
 .about .row:hover{
@@ -310,11 +311,15 @@ border-bottom-right-radius: 15px;
 
 .faq .title{
     min-height: 100vh;
-    widgth: 80%;
+    widgth: 100%;
     margin: 0 auto;
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    height: 60rem;
+
 }
 
 .faq .title h2{
