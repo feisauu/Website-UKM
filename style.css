@@ -305,6 +305,60 @@ border-bottom-right-radius: 15px;
     padding: 1 1;
 }
 
+.retrospeksi .heading span{
+        background: var(--orange);
+        color: #fff;
+        display: inline-block;
+        padding: .5rem 3rem;
+        clip-path: polygon(100% 0, 93% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);  
+        margin-top: 8%;
+}
+
+.gallery{
+    width: 900px;
+    display:flex;
+    overflow-x: scroll;
+}
+
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div img {
+    width: 90%;
+    filter:grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10% auto;
+    margin-top: 0%;
+}
+
+#backBtn, #nextBtn{
+    width:40px;
+    cursor:pointer;
+    margin:40px;
+}
+
+.gallery div img:hover{
+    filter:grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .faq{
     color:#000000;
 }
@@ -312,12 +366,12 @@ border-bottom-right-radius: 15px;
 .faq .title{
     min-height: 100vh;
     widgth: 100%;
-    margin: 0 auto;
+    margin-bottom: 5%;
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
     height: 60rem;
 
 }
