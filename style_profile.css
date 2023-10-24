@@ -223,6 +223,7 @@ section{
 
 .about .row:hover{
     outline: var(--outline-hover);
+    outline-offset: 0rem;
 }
 
 
@@ -267,9 +268,80 @@ section{
     font-size: 1.6rem;
     color: var(--black);
     padding: 1rem 0rem;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     text-align: justify;
 }
+
+.contact{
+    padding: 8rem 7% 1.4rem;
+    margin-top: 5rem;
+}
+
+.contact body{
+    min-height: 5000px;
+}
+
+.contact p{
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.contact .row{
+    display: flex;
+    margin-top: 2rem;
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+    padding: 3rem;
+}
+
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+}
+
+.contact .row .map:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    color: #666;
+    text-align: center;
+}
+
+
+.contact .row form .input-group{
+    margin: 1rem 0;
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.contact .row form .input-group:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.contact .row .input-group .box{
+    width: 90%;
+    font-size: 1.6rem;
+    background: #eee;
+    color: var(--black);
+    text-transform: none;
+}
+
+
 
 .footer{
     background: #fff;
