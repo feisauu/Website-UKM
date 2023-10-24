@@ -320,18 +320,6 @@ section {
     padding: 3px 6px;
     font-size: 8px;
 }
-
-.halaman li {
-    display: inline;
-}
-
-.halaman a {
-    text-decoration: none;
-    color: #000242;
-    padding: 150px 150px;
-    font-size: 15px;
-}
-
 .fab {
     font-size: 20px;
 }
