@@ -364,7 +364,6 @@ border-bottom-right-radius: 15px;
 }
 
 .faq .title{
-    min-height: 100vh;
     width: 100%;
     margin-bottom: 5%;
     display:flex;
@@ -372,8 +371,6 @@ border-bottom-right-radius: 15px;
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 5rem;
-    height: 60rem;
-
 }
 
 .faq .title h2{
