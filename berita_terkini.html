@@ -1,61 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berita Terkini UNESA</title>
-
+    <title>Website UKM</title>
     <link rel="shortcut icon"  href="gambar/logo_judul.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <link rel="stylesheet" href="style_berita_terkini.css">
-
-    <script src ="berita terkini.js" ></script>
-    
+    <link rel="stylesheet" href="style_beranda.css">
 </head>
-
 <body>
-
     <!--header-->
-    <header class="header">
-        <a href="#" class="logo"><i class="fas fa-spinner"></i> UKM UNESA 2023</a>
+ <header class="header">
+    <a href="#" class="logo"><img src="gambar/spinner_icon.png"> UKM UNESA </a>
+ 
+<nav class="navbar">
+    <a href="index.html">Beranda</a>
+    <a href="profile.html">Profil</a>
+    <a href="berita_terkini.html">Berita Terkini</a>
+    <a href="Event.html">Event</a>
+    <a href="kontak.html">Kontak</a>
+ </nav>
 
-        <nav class="navbar">
-            <a href="index.html">Beranda</a>
-            <a href="profile.html">Profil</a>
-            <a href="berita_terkini.html">Berita Terkini</a>
-            <a href="Event.html">Event</a>
-            <a href="kontak.html">Kontak</a>
-        </nav>
+ <div class="icons">
+    <div class="menu"><img src="gambar/menu_icon.png"></div>
+    <div class="search"><img src="gambar/search_icon.png"></div>
+    <div class="login"><img src="gambar/user_icon.png"></div>
+ </div>
 
-        <div class="icons">
-            <div class="fas fa-bars" id="menu-btn"></div>
-            <div class="fas fa-search" id="search-btn"></div>
-            <div class="fas fa-user" id="login-btn"></div>
-        </div>
+ <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="Search here...">
+    <img class="icon" src="gambar/search_icon.png" alt="">
+ </form>
 
-        <form action="" class="search-form">
-            <input type="search" id="search-box" placeholder="Search here...">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
+ <form action="" class="login-form">
+    <h3>Login Now</h3>
+    <input type="email" placeholder="Your Email" class="box">
+    <input type="password" placeholder="Your Password" class="box">
+    <p>Forget your password <a href="#">Click Here</a></p>
+    <p>Don't Have Any Account? <a href="#">Create Now</a></p>
+    <input type="submit" value="Login Now" class="btn">
+ </form>
+</header>
+<!--header-->
 
-        <form action="" class="login-form">
-            <h3>Login Now</h3>
-            <input type="email" placeholder="Your Email" class="box">
-            <input type="password" placeholder="Your Password" class="box">
-            <p>Forget your password <a href="#">Click Here</a></p>
-            <p>Don't Have Any Account? <a href="#">Create Now</a></p>
-            <input type="submit" value="Login Now" class="btn">
-        </form>
-    </header>
-    <!--header-->
-
-    <!--judul-->
+<!--judul-->
     <div id="beritaTerkini">
         <div class="center">
             <h1 class="judul">BERITA TERKINI UKM UNIVERSITAS NEGERI SURABAYA</h1>
