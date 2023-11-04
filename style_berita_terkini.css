@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
-:root {
+:root{
     --orange: #ff7800;
     --black: #130f40;
     --light-color: #666;
-    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-    --border: .2rem solid rgba(0, 0, 0, .1);
-    --outline: .1rem solid rgba(0, 0, 0, .1);
-    --outline-hover: .6rem solid rgba(0, 0, 0, .1);
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border: .2rem solid rgba(0,0,0,.1);
+    --outline: .1rem solid rgba(0,0,0,.1);
+    --outline-hover: .6rem solid rgba(0,0,0,.1);
 }
 
-* {
+*{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -21,23 +19,22 @@
     transition: all .2s linear;
 }
 
-html {
+html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
 
-body {
+body{
     background: #eeee;
 }
 
-section {
+section{
     padding: 2rem 9%;
 }
 
-
-.heading {
+.heading{
     text-align: center;
     padding: 2rem 0;
     padding-bottom: 3.5rem;
@@ -45,7 +42,7 @@ section {
     color: var(--black);
 }
 
-.heading span {
+.heading span{
     background: var(--orange);
     color: #fff;
     display: inline-block;
@@ -53,7 +50,13 @@ section {
     clip-path: polygon(100% 0, 93% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
 }
 
-.btn {
+.font{
+    margin-left: 5rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color: var(--black);
+}
+.btn{
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
@@ -65,13 +68,11 @@ section {
     background: none;
 }
 
-.btn:hover {
+.btn:hover{
     background: var(--orange);
     color: #fff;
 }
-
-/* CSS HEADER */
-.header {
+.header{
     position: fixed;
     top: 0;
     left: 0;
@@ -85,49 +86,53 @@ section {
     box-shadow: var(--box-shadow);
 }
 
-.header .logo {
+.header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--black);
 }
 
-.header .logo i {
-    color: var(--orange);
-}
-
-.header .navbar a {
+.header .navbar a{
     font-size: 1.7rem;
     margin: 1rem 1rem;
     color: var(--black);
 }
 
-.header .navbar a:hover {
-    color: var(--orange)
+.header .navbar a:hover{
+    color:var(--orange)
 }
 
-.header .icons div {
-    height: 4.5rem;
+.header .icons{
+    display: flex;
+}
+
+.header .icons div{
     width: 4.5rem;
-    line-height: 4.5rem;
+    line-height: 4rem;
     border-radius: .5rem;
     background: #eeee;
     color: var(--black);
-    font-size: 2rem;
+    font-size: 4rem;
     margin-right: .3rem;
     cursor: pointer;
     text-align: center;
 }
 
-.header .icons div:hover {
+.header .icons .menu{
+    display: none;
+}
+
+.header .icons div img{
+    height: 2.5rem;
+}
+
+.header .icons div:hover{
     background: var(--orange);
     color: #fff;
 }
 
-#menu-btn {
-    display: none;
-}
 
-.header .search-form {
+.header .search-form{
     position: absolute;
     top: 110%;
     right: -110%;
@@ -141,12 +146,12 @@ section {
     box-shadow: var(--box-shadow);
 }
 
-.header .search-form.active {
+.header .search-form.active{
     right: 2rem;
     transition: .4s linear;
 }
 
-.header .search-form input {
+.header .search-form input{
     height: 100%;
     width: 100%;
     background: none;
@@ -156,18 +161,23 @@ section {
     padding: 0 1.5rem;
 }
 
-.header .search-form label {
+.header .search-form label{
     font-size: 2.2.rem;
     padding-right: 1.5rem;
     color: var(--black);
     cursor: pointer;
 }
 
-.header .search-form label:hover {
+.header .search-form label:hover{
     color: var(--orange);
 }
 
-.header .login-form {
+.header .search-form img{
+    height: 2rem;
+    padding-right: 2rem;
+}
+
+.header .login-form{
     position: absolute;
     top: 110%;
     right: -110%;
@@ -179,18 +189,18 @@ section {
     text-align: center;
 }
 
-.header .login-form.active {
+.header .login-form.active{
     right: 2rem;
     transition: .4s linear;
 }
 
-.header .login-form h3 {
+.header .login-form h3{
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--black);
 }
 
-.header .login-form .box {
+.header .login-form .box{
     width: 100%;
     margin: .7rem 0;
     background: #eee;
@@ -201,17 +211,17 @@ section {
     text-transform: none;
 }
 
-.header .login-form p {
+.header .login-form p{
     font-size: 1.4rem;
     padding: .5rem 0;
     color: var(--light-color);
 }
 
-.header .login-form p a {
+.header .login-form p a{
     color: var(--orange);
     text-decoration: underline;
 }
-/* AKHIR CSS HEADER */
+/* AKHIR HEADER */
 
 /* JUDUL */
 #beritaTerkini {
