@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
 :root{
     --orange: #ff7800;
     --black: #130f40;
@@ -39,7 +37,7 @@ section{
 .heading{
     text-align: center;
     padding: 2rem 0;
-    padding-bottom: 3.5rem;
+    padding-bottom: 2rem;
     font-size: 3.5rem;
     color: var(--black);
 }
@@ -54,8 +52,7 @@ section{
 
 .font{
     margin-left: 5rem;
-    padding-top: 3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--black);
 }
 .btn{
@@ -94,10 +91,6 @@ section{
     color: var(--black);
 }
 
-.header .logo i{
-    color: var(--orange);
-}
-
 .header .navbar a{
     font-size: 1.7rem;
     margin: 1rem 1rem;
@@ -108,17 +101,28 @@ section{
     color:var(--orange)
 }
 
+.header .icons{
+    display: flex;
+}
+
 .header .icons div{
-    height: 4.5rem;
     width: 4.5rem;
-    line-height: 4.5rem;
+    line-height: 4rem;
     border-radius: .5rem;
     background: #eeee;
     color: var(--black);
-    font-size: 2rem;
+    font-size: 4rem;
     margin-right: .3rem;
     cursor: pointer;
     text-align: center;
+}
+
+.header .icons .menu{
+    display: none;
+}
+
+.header .icons div img{
+    height: 2.5rem;
 }
 
 .header .icons div:hover{
@@ -126,9 +130,6 @@ section{
     color: #fff;
 }
 
-#menu-btn{
-    display: none;
-}
 
 .header .search-form{
     position: absolute;
@@ -168,6 +169,11 @@ section{
 
 .header .search-form label:hover{
     color: var(--orange);
+}
+
+.header .search-form img{
+    height: 2rem;
+    padding-right: 2rem;
 }
 
 .header .login-form{
@@ -291,44 +297,60 @@ section{
 }
 
 .type .type-slider{
-    padding: 1rem;
+    padding: 3rem;
 }
 
-.type .type-slider:first-child{
-    margin-bottom: 2rem;
+#back_btn, #next_btn{
+    height: 6rem;
+    cursor: pointer;
+    margin: 2rem;
 }
 
-.type .type-slider .box{
+.type .type-slider .slider-controls {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.type .type-slider .box-slider-container {
+    display: flex;
+    overflow: hidden; 
+}
+  
+.type .type-slider .box-slider{
     background: #fff;
     border-radius: 5rem;
     text-align: center;
-    padding: 3rem 2rem;
     outline-offset: -1rem;
+    margin: 1rem;
+    padding: 3rem 2rem;
+    flex: 0 0 25%;
     outline: var(--outline);
     box-shadow: var(--box-shadow);
-    transition: .3s linear;
+    width: 100%;
 }
 
-.type .type-slider .box:hover{
+.type .type-slider .box-slider:hover{
     outline-offset: 0rem;
     outline: var(--outline-hover);
 }
 
-.type .type-slider .box img{
+.type .type-slider .box-slider img{
     height: 15rem;
 }
 
-.type .type-slider .box h3{
+.type .type-slider .box-slider h3{
     font-size: 1.7rem;
     color: var(--black);
 }
 
-.type .type-slider .box .price{
+.type .type-slider .box-slider .price{
     font-size: 1.3rem;
     color: var(--light-color);
     padding: .5rem 0;
 }
-
 
 .footer{
     background: #fff;
@@ -346,20 +368,17 @@ section{
     padding: 1rem 0;
 }
 
-.footer .box-container .box h3 i{
-    color: var(--orange);
-}
-
 .footer .box-container .box .links{
     display: block;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     color:var(--light-color);
     padding: 1rem 0;
 }
 
-.footer .box-container .box .links i{
-    color: var(--orange);
+.footer .box-container .box .links img{
     padding-right: .5rem;
+    height: 2rem;
+    vertical-align: middle;
 }
 
 .footer .box-container .box .links:hover i{
@@ -374,12 +393,8 @@ section{
 }
 
 .footer .box-container .box .share a{
-    height: 4rem;
-    width: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
     border-radius: .5rem;
-    font-size: 2rem;
-    color: --black;
     margin-left: .2rem;
     background-color: #eee;
     text-align: center;
@@ -387,7 +402,10 @@ section{
 
 .footer .box-container .box .share a:hover{
     background: var(--orange);
-    color: #fff;
+}
+
+.footer .box-container .box .share img{
+    height: 2rem;
 }
 
 .footer .box-container .box .email{
@@ -428,7 +446,7 @@ section{
     }
 }
 @media (max-width:768px){
-    #menu-btn{
+    .header .icons .menu{
         display: inline-block;
     }
     .header .search-form{
