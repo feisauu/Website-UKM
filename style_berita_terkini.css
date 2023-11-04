@@ -289,7 +289,7 @@ section{
     color: var(--black);
 }
 
-.about .row{
+.news .row{
     align-items: center;
     margin-top: 6%;
     margin-left: 4%;
@@ -304,37 +304,37 @@ section{
     border-radius: 5rem;
 }
 
-.about .row:hover{
+.news .row:hover{
     outline: var(--outline-hover);
     outline-offset: 0rem;
 }
 
-.about .row .image{
+.news .row .image{
     flex:1 1 5rem;
     filter: contrast(85%);
 }
 
-.about .row .image:hover{
+.news .row .image:hover{
     filter: contrast(105%);
 }
 
-.about .row .image img{
+.news .row .image img{
     width: 70%;
     display: block;
     margin: auto;
 }
 
-.about .row .content{
+.news .row .content{
     flex:1 1 20rem;
     padding: 2rem;
 }
 
-.about .row .content h3{
+.news .row .content h3{
     font-size: 2rem;
     color: var(--black);
 }
 
-.about .row .content p{
+.news .row .content p{
     font-size: 1.6rem;
     color: var(--black);
     padding: 1rem 0;
