@@ -404,8 +404,8 @@ section{
 } 
 /* AKHIR BERITA */
 
-
 /* FOOTER */
+
 .footer{
     background: #fff;
 }
@@ -422,20 +422,17 @@ section{
     padding: 1rem 0;
 }
 
-.footer .box-container .box h3 i{
-    color: var(--orange);
-}
-
 .footer .box-container .box .links{
     display: block;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     color:var(--light-color);
     padding: 1rem 0;
 }
 
-.footer .box-container .box .links i{
-    color: var(--orange);
+.footer .box-container .box .links img{
     padding-right: .5rem;
+    height: 2rem;
+    vertical-align: middle;
 }
 
 .footer .box-container .box .links:hover i{
@@ -450,12 +447,8 @@ section{
 }
 
 .footer .box-container .box .share a{
-    height: 4rem;
-    width: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
     border-radius: .5rem;
-    font-size: 2rem;
-    color: --black;
     margin-left: .2rem;
     background-color: #eee;
     text-align: center;
@@ -464,6 +457,10 @@ section{
 .footer .box-container .box .share a:hover{
     background: var(--orange);
     color: #fff;
+}
+
+.footer .box-container .box .share img{
+    height: 2rem;
 }
 
 .footer .box-container .box .email{
@@ -491,6 +488,7 @@ section{
     color: --orange;
 }
 
+
 @media (max-width:991px){
     html{
         font-size: 55%;
@@ -503,7 +501,7 @@ section{
     }
 }
 @media (max-width:768px){
-    #menu-btn{
+    .header .icons .menu{
         display: inline-block;
     }
     .header .search-form{
