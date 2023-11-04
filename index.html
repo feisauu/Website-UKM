@@ -5,19 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website UKM</title>
-    <link rel="shortcut icon"  href="gambar/logo_judul.png" type="image/x-icon">   
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link rel="shortcut icon"  href="gambar/logo_judul.png" type="image/x-icon">
     <link rel="stylesheet" href="style_beranda.css">
 </head>
 <body>
-
     <!--header-->
  <header class="header">
-    <a href="#" class="logo"><i class="fas fa-spinner"></i> UKM UNESA </a>
+    <a href="#" class="logo"><img src="gambar/spinner_icon.png"> UKM UNESA </a>
  
 <nav class="navbar">
     <a href="index.html">Beranda</a>
@@ -28,14 +22,14 @@
  </nav>
 
  <div class="icons">
-    <div class="fas fa-bars" id="menu-btn"></div>
-    <div class="fas fa-search" id="search-btn"></div>
-    <div class="fas fa-user" id="login-btn"></div>
+    <div class="menu"><img src="gambar/menu_icon.png"></div>
+    <div class="search"><img src="gambar/search_icon.png"></div>
+    <div class="login"><img src="gambar/user_icon.png"></div>
  </div>
 
  <form action="" class="search-form">
     <input type="search" id="search-box" placeholder="Search here...">
-    <label for="search-box" class="fas fa-search"></label>
+    <img class="icon" src="gambar/search_icon.png" alt="">
  </form>
 
  <form action="" class="login-form">
@@ -81,143 +75,159 @@
 <section class="type" id="type">
     <h1 class="heading">Our <span> UKM </span></h1>
     <h1 class="font">Bidang Minat dan Bakat</h1>
-    <div class="swiper type-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide box">
-                <img src="gambar/ukwu.png" alt="">
-                <h3>UKM KWU</h3>
-                <div class="price">Unit Kegiatan Kewirausahaan</div>
-                <a href="#" class="btn">Join</a>
+    <div class="type-slider">
+        <div class="slider-controls">
+            <img src="gambar/tanda kiri.png" id="back_btn">
+            <div class="box-slider-container">
+                <div class="box-slider">
+                    <img src="gambar/ukwu.png" alt="">
+                    <h3>UKM KWU</h3>
+                    <div class="price">Unit Kegiatan Kewirausahaan</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pedulik.png" alt="">
+                    <h3>UKM Peduli Kemanusiaan</h3>
+                    <div class="price">Unit Kegiatan Peduli Kemanusiaan</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pramuka.png" alt="">
+                    <h3>UKM Pramuka</h3>
+                    <div class="price">Unit Kegiatan Pramuka</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/afo.png" alt="">
+                    <h3>UKM Fotografi</h3>
+                    <div class="price">Unit Kegiatan Aktifitas Fotografi</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pramuka.png" alt="">
+                    <h3>UKM Pramuka2</h3>
+                    <div class="price">Unit Kegiatan Pramuka</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pramuka.png" alt="">
+                    <h3>UKM Pramuka3</h3>
+                    <div class="price">Unit Kegiatan Pramuka</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pramuka.png" alt="">
+                    <h3>UKM Pramuka4</h3>
+                    <div class="price">Unit Kegiatan Pramuka</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
             </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pedulik.png" alt="">
-                <h3>UKM Peduli Kemanusiaan</h3>
-                <div class="price">Unit Kegiatan Peduli Kemanusiaan</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/afo.png" alt="">
-                <h3>UKM Fotografi</h3>
-                <div class="price">Unit Kegiatan Aktifitas Fotografi</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka2</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka3</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka4</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
+            <img src="gambar/tanda kanan.png" id="next_btn">
+          </div>
         </div>
     </div>
     <h1 class="font">Bidang Kerohanian</h1>
-    <div class="swiper type-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide box">
-                <img src="gambar/hindu.png" alt="">
-                <h3>UKM UKKH</h3>
-                <div class="price">Unit Kegiatan Kerohanian Hindu</div>
-                <a href="#" class="btn">Join</a>
+    <div class="type-slider">
+        <div class="slider-controls">
+            <img src="gambar/tanda kiri.png" id="back_btn">
+              <div class="box-slider-container">
+                <div class="box-slider">
+                    <img src="gambar/hindu.png" alt="">
+                    <h3>UKM UKKH</h3>
+                    <div class="price">Unit Kegiatan Kerohanian Hindu</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pramuka.png" alt="">
+                    <h3>UKM Pramuka</h3>
+                    <div class="price">Unit Kegiatan Pramuka</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pramuka.png" alt="">
+                    <h3>UKM Pramuka</h3>
+                    <div class="price">Unit Kegiatan Pramuka</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/pramuka.png" alt="">
+                    <h3>UKM Pramuka</h3>
+                    <div class="price">Unit Kegiatan Pramuka</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/kristen.png" alt="">
+                    <h3>UKM UKKKP</h3>
+                    <div class="price">Unit Kerohanian Kristen Protestan</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/mtq.png" alt="">
+                    <h3>UKM MTQ</h3>
+                    <div class="price">Unit Kegiatan Musabaqoh Tilawatil Qur'an</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
+                <div class="box-slider">
+                    <img src="gambar/ukki.png" alt="">
+                    <h3>UKM UKKI</h3>
+                    <div class="price">Unit Kegiatan Kerohanian Islam</div>
+                    <a href="#" class="btn">Join</a>
+                </div>
             </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/kristen.png" alt="">
-                <h3>UKM UKKKP</h3>
-                <div class="price">Unit Kerohanian Kristen Protestan</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/mtq.png" alt="">
-                <h3>UKM MTQ</h3>
-                <div class="price">Unit Kegiatan Musabaqoh Tilawatil Qur'an</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/ukki.png" alt="">
-                <h3>UKM UKKI</h3>
-                <div class="price">Unit Kegiatan Kerohanian Islam</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-        </div>
-        <h1 class="font">Bidang Olahraga dan Bela Diri</h1>
-    <div class="swiper type-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide box">
-                <img src="gambar/basket.png" alt="">
-                <h3>UKM Basketball</h3>
-                <div class="price">Unit Kegiatan Bola Basket</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/perisai.png" alt="">
-                <h3>UKM Perisai Diri</h3>
-                <div class="price">Unit Kegiatan Perisai Diri</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/taekwondo.png" alt="">
-                <h3>UKM Taekwon-do</h3>
-                <div class="price">Unit Kegiatan Taekwon-do</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/cricket.png" alt="">
-                <h3>UKM Cricket</h3>
-                <div class="price">Unit Kegiatan Cricket</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
-            <div class="swiper-slide box">
-                <img src="gambar/pramuka.png" alt="">
-                <h3>UKM Pramuka</h3>
-                <div class="price">Unit Kegiatan Pramuka</div>
-                <a href="#" class="btn">Join</a>
-            </div>
+        <img src="gambar/tanda kanan.png" id="next_btn">
+      </div>
+    </div>
+</div>
+    <h1 class="font">Bidang Olahraga dan Bela Diri</h1>
+        <div class="type-slider">
+            <div class="slider-controls">
+                <img src="gambar/tanda kiri.png" id="back_btn">
+                  <div class="box-slider-container">
+                    <div class="box-slider">
+                        <img src="gambar/basket.png" alt="">
+                        <h3>UKM Basketball</h3>
+                        <div class="price">Unit Kegiatan Bola Basket</div>
+                        <a href="#" class="btn">Join</a>
+                    </div>
+                    <div class="box-slider">
+                        <img src="gambar/perisai.png" alt="">
+                        <h3>UKM Perisai Diri</h3>
+                        <div class="price">Unit Kegiatan Perisai Diri</div>
+                        <a href="#" class="btn">Join</a>
+                    </div>
+                    <div class="box-slider">
+                        <img src="gambar/taekwondo.png" alt="">
+                        <h3>UKM Taekwon-do</h3>
+                        <div class="price">Unit Kegiatan Taekwon-do</div>
+                        <a href="#" class="btn">Join</a>
+                    </div>
+                    <div class="box-slider">
+                        <img src="gambar/cricket.png" alt="">
+                        <h3>UKM Cricket</h3>
+                        <div class="price">Unit Kegiatan Cricket</div>
+                        <a href="#" class="btn">Join</a>
+                    </div>
+                    <div class="box-slider">
+                        <img src="gambar/pramuka.png" alt="">
+                        <h3>UKM Pramuka</h3>
+                        <div class="price">Unit Kegiatan Pramuka</div>
+                        <a href="#" class="btn">Join</a>
+                    </div>
+                    <div class="box-slider">
+                        <img src="gambar/pramuka.png" alt="">
+                        <h3>UKM Pramuka</h3>
+                        <div class="price">Unit Kegiatan Pramuka</div>
+                        <a href="#" class="btn">Join</a>
+                    </div>
+                    <div class="box-slider">
+                        <img src="gambar/pramuka.png" alt="">
+                        <h3>UKM Pramuka</h3>
+                        <div class="price">Unit Kegiatan Pramuka</div>
+                        <a href="#" class="btn">Join</a>
+                    </div>
+                </div>
+            <img src="gambar/tanda kanan.png" id="next_btn">
+         </div>
         </div>
     </div>
 </section>
@@ -228,13 +238,13 @@
     <div class="box-container">
         <div class="box">
             <h3>
-                UKM UNESA <i class="fas fa-spinner"></i>
+                <img src="gambar/spinner_icon.png" alt=""> UKM UNESA 
             </h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, laudantium?</p>
             <div class="share">
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
+                <a href="#"><img src="gambar/fb_icon.png" alt=""></a>
+                <a href="#"><img src="gambar/x_icon.png" alt=""></a>
+                <a href="#"><img src="gambar/ig_icon.png" alt=""></a>
             </div>
         </div>
 
@@ -242,20 +252,20 @@
             <h3>
                 Contact Us
             </h3>
-            <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-789</a>
-            <a href="#" class="links"><i class="fas fa-phone"></i>+111-222-333</a>
-            <a href="#" class="links"><i class="fas fa-envelope"></i>ukmunesa@unesa.ac.id</a>
-            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Surabaya, Jawa Timur</a>                  
+            <a href="#" class="links"><i><img src="gambar/call_icon_orange.png" ></i>+123-456-789</a>
+            <a href="#" class="links"><i><img src="gambar/call_icon_orange.png" ></i>+111-222-333</a>
+            <a href="#" class="links"><i><img src="gambar/email_icon_orange.png"></i>ukmunesa@unesa.ac.id</a>
+            <a href="#" class="links"><i><img src="gambar/map_icon_orange.png"  ></i>Surabaya, Jawa Timur</a>                  
         </div>
         <div class="box">
             <h3>
                 Quick Link
             </h3>
-            <a href="index.html" class="links"><i class="fas fa-arrow-right"></i>Beranda</a>
-            <a href="profile.html" class="links"><i class="fas fa-arrow-right"></i>Profil</a>
-            <a href="berita_terkini.html" class="links"><i class="fas fa-arrow-right"></i>Berita Terkini</a>
-            <a href="Event.html" class="links"><i class="fas fa-arrow-right"></i>Event</a> 
-            <a href="kontak.html" class="links"><i class="fas fa-arrow-right"></i>Kontak</a>
+            <a href="index.html" class="links"><i><img src="gambar/panah_icon_orange.png" ></i>Beranda</a>
+            <a href="profile.html" class="links"><i><img src="gambar/panah_icon_orange.png" ></i>Profil</a>
+            <a href="berita_terkini.html" class="links"><i><img src="gambar/panah_icon_orange.png" ></i>Berita Terkini</a>
+            <a href="Event.html" class="links"><i><img src="gambar/panah_icon_orange.png" ></i>Event</a> 
+            <a href="kontak.html" class="links"><i><img src="gambar/panah_icon_orange.png" ></i>Kontak</a>
         </div>
     </div>
     <div class="credit">Created by <span>Kelompok 4 MIB</span> | All Rights Reserved</div>
@@ -263,9 +273,6 @@
 <!--footer section-->
 
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="javascript.js"></script>
 </body>
 </html>
