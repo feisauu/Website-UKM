@@ -1,6 +1,6 @@
 let searchForm = document.querySelector('.search-form');
 
-document.querySelector('#search-btn').onclick = () =>{
+document.querySelector('.search').onclick = () =>{
     searchForm.classList.toggle('active');
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
@@ -8,14 +8,14 @@ document.querySelector('#search-btn').onclick = () =>{
 
 let loginForm = document.querySelector('.login-form');
 
-document.querySelector('#login-btn').onclick = () =>{
+document.querySelector('.login').onclick = () =>{
     loginForm.classList.toggle('active');
     searchForm.classList.remove('active');
     navbar.classList.remove('active');
 }
 let navbar = document.querySelector('.navbar');
 
-document.querySelector('#menu-btn').onclick = () =>{
+document.querySelector('.menu').onclick = () =>{
     navbar.classList.toggle('active');
     searchForm.classList.remove('active');
     loginForm.classList.remove('active');
@@ -27,23 +27,25 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 
-var swiper = new Swiper(".type-slider", {
-    loop:true,
-    spaceBetween: 20,
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false,
-    },
-    centeredSlides: true,
-    breakpoints: {
-      0: {
-        slidesPerView: 2,
-      },
-      768: {
-        slidesPerView: 3,
-      },
-      1020: {
-        slidesPerView: 4,
-      },
-    },
+document.addEventListener("click", function (event) {
+  if (event.target.id === "next_btn" || event.target.id === "back_btn") {
+    const sliderControls = event.target.closest(".slider-controls");
+     if (sliderControls) {
+      const scrollContainer = sliderControls.querySelector(".box-slider-container");
+      const boxSliderWidth = scrollContainer.querySelector(".box-slider").offsetWidth;
+      const isNext = event.target.id === "next_btn";
+
+      scrollContainer.style.scrollBehavior = "smooth";
+      scrollContainer.scrollLeft += isNext ? boxSliderWidth : -boxSliderWidth;
+    }
+  }
+});
+
+const sliderContainers = document.querySelectorAll(".box-slider-container");
+sliderContainers.forEach(function (scrollContainer) {
+  scrollContainer.addEventListener("wheel", function (evt) {
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY;
+    scrollContainer.style.scrollBehavior = "auto";
   });
+});
