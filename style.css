@@ -230,10 +230,14 @@ section{
     padding-bottom: 10rem;
     height: 60rem;
     margin-bottom: 7rem;
-    background-image: url(gambar/eventt.png);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../gambar/eventt.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .Event .content{
