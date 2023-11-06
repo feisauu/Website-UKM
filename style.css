@@ -223,15 +223,14 @@ section{
 }
 
 .Event{
-    min-height: 100vh;
-    height:100%;
     display: flex;
     align-items: center;
-    background-image: url('../gambar/eventt.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    justify-content: left;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    height: 60rem;
+    margin-bottom: 7rem;
+    min-height: 100vh;
 }
 
 .Event .content{
