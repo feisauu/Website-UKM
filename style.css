@@ -229,6 +229,7 @@ section{
     background-size: contain;
     background-position: center;
     min-height: 100vh;
+    min-width: 100vh;
 }
 
     
