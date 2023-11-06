@@ -553,6 +553,9 @@ border-bottom-right-radius: 15px;
     section{
         padding: 2rem;
     }
+    .Event{
+        padding: 2rem;
+    }
 }
 @media (max-width:768px){
     .header .icons .menu{
@@ -589,5 +592,8 @@ border-bottom-right-radius: 15px;
     }
     .footer{
         text-align: center;
+    }
+    .Event{
+        padding: 2rem;
     }
 }
