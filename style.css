@@ -227,10 +227,8 @@ section{
     align-items: center;
     justify-content: center;
     background: url(gambar/eventt1.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    padding-top: 17rem;
-    padding-bottom: 10rem;
     height: 60rem;
     min-height: 100vh;
     position: relative;
