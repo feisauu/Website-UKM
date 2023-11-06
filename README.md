@@ -243,5 +243,5 @@ Daftar informasi kontak UKM, termasuk alamat email, nomor telepon, alamat fisik,
 
 
 
-<br>Penjelasan Kode
-https://github.com/feisauu/Website-UKM/files/13121739/Dokumentasi.dan.Penjelasan.Source.Code.Website.UKM.docx
+<br> Dokumentasi dan Penjelasan Kode:
+<br> https://github.com/feisauu/Website-UKM/files/13121739/Dokumentasi.dan.Penjelasan.Source.Code.Website.UKM.docx
