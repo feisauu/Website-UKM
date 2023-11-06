@@ -50,7 +50,7 @@ handleScroll();
 
 
 
-//past memories
+//Menu
 let searchForm = document.querySelector('.search-form');
 
 document.querySelector('.search').onclick = () =>{
@@ -92,6 +92,8 @@ faq.forEach (faq => {
      });
 });
 
+
+//Past Memories
 let scrollContainer = document.querySelector(".gallery");
 let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
