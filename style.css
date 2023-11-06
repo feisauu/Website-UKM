@@ -223,13 +223,6 @@ section{
 }
 
 .Event{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-top: 17rem;
-    padding-bottom: 10rem;
-    height: 60rem;
-    margin-bottom: 7rem;
     min-height: 100vh;
     display: flex;
     align-items: center;
