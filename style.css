@@ -237,7 +237,7 @@ section{
     text-align: left;
     width: 80rem;
     transform: translateY(40px);
-    transition: opacity 1s, transform 1s;
+    transition: opacity 2s, transform 2s;
 }
 
 .Event .content.active {
@@ -270,6 +270,17 @@ border-top-right-radius: 15px;
 border-bottom-right-radius: 15px;
 }
 
+.about .heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3.5rem;
+    font-size: 3.5rem;
+    color: var(--black);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
 .about .row{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -294,10 +305,8 @@ border-bottom-right-radius: 15px;
 
 }
 
-
 .about .row .image{
-    flex:1 1 10rem;
-    
+    flex:1 1 10rem;   
 }
 
 .about .row .image img{
@@ -327,6 +336,12 @@ border-bottom-right-radius: 15px;
 .about .row .content a{
     font-size: 1.5rem;
     padding: 1rem ;
+}
+
+.retrospeksi .heading {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s, transform 1.5s;
 }
 
 .retrospeksi .heading span{
