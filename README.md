@@ -22,7 +22,7 @@ Universitas Negeri Surabaya
 
 Tahun 2023
 
-1. Pendahuluan<br>
+## 1. Pendahuluan<br>
 1.1 Tujuan Penulisan Dokumen
 <p>Dokumen SKPL ini bertujuan untuk menciptakan panduan bagi tim pengembangan dalam membangun website yang efisien dan sesuai dengan kebutuhan UKM. Dokumen ini juga akan membantu dalam memastikan bahwa website UKM dapat menyediakan informasi yang lengkap dan terbaru tentang kegiatan, jadwal, dan berita terkini terkait UKM, meningkatkan efektivitas dalam mempromosikan kegiatan serta prestasi UKM kepada anggota mahasiswa, calon anggota, dan masyarakat umum, menyediakan informasi yang lengkap dan terbaru tentang kegiatan, jadwal, dan berita terkini terkait UKM. Selain itu, dokumen ini akan memainkan peran penting dalam mengelola pengembangan agar website berfungsi dengan baik sesuai harapan pengguna. Dengan demikian, tujuan utama dokumen ini adalah memastikan bahwa website UKM bisa menjadi alat yang efektif dalam mencapai tujuan dan visi UKM di lingkungan perguruan tinggi. </p>
 1.2 Konvensi Dokumen
