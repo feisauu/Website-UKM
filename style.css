@@ -226,7 +226,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(gambar/eventt6.png) no-repeat;
+    background: url(gambar/eventt8.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -236,6 +236,13 @@ section{
 .Event .content{
     text-align: left;
     width: 80rem;
+    transform: translateY(40px);
+    transition: opacity 1s, transform 1s;
+}
+
+.Event .content.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .Event .content h3{
