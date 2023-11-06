@@ -22,7 +22,7 @@ Universitas Negeri Surabaya
 
 Tahun 2023
 
-## 1. Pendahuluan<br>
+## 1. Pendahuluan
 1.1 Tujuan Penulisan Dokumen
 <p>Dokumen SKPL ini bertujuan untuk menciptakan panduan bagi tim pengembangan dalam membangun website yang efisien dan sesuai dengan kebutuhan UKM. Dokumen ini juga akan membantu dalam memastikan bahwa website UKM dapat menyediakan informasi yang lengkap dan terbaru tentang kegiatan, jadwal, dan berita terkini terkait UKM, meningkatkan efektivitas dalam mempromosikan kegiatan serta prestasi UKM kepada anggota mahasiswa, calon anggota, dan masyarakat umum, menyediakan informasi yang lengkap dan terbaru tentang kegiatan, jadwal, dan berita terkini terkait UKM. Selain itu, dokumen ini akan memainkan peran penting dalam mengelola pengembangan agar website berfungsi dengan baik sesuai harapan pengguna. Dengan demikian, tujuan utama dokumen ini adalah memastikan bahwa website UKM bisa menjadi alat yang efektif dalam mencapai tujuan dan visi UKM di lingkungan perguruan tinggi. </p>
 1.2 Konvensi Dokumen
@@ -44,8 +44,9 @@ Dokumen-dokumen yang digunakan sebagai referensi dalam pembuatan SKPL ini adalah
 <li>Bagja Sumarlin, Dede Rohmat Apandi, Opan Dilaga. (2019). "Rancangan Web Sistem Informasi UKM (SIUK) 'GL01'. </li>
 <li>Firdhaus Hari Saputro Al Haris, Sri Huning Anwariningsih, Aziz Jihadian Barid. (2018, Januari 11). "Pemodelan Aplikasi Unit Kegiatan Mahasiswa (UKM) Universitas Sahid Surakarta." Jurnal Gaung Informatika, Vol. 8, No. 2, Juli 2015. </li>
 <li>Agung Rifqi Hidayat, Tri Listyorini, Tutik Khotimah. "Aplikasi Manajemen Unit Kegiatan Mahasiswa pada Universitas Muria Kudus Berbasis Web." </li> <br>
-<br>2. Deskripsi Keseluruhan
-<br>2.1 Perspektif Produk 
+
+## 2. Deskripsi Keseluruhan
+2.1 Perspektif Produk 
 	<p>Website Unit Kegiatan Mahasiswa (UKM) adalah sebuah website online yang dirancang khusus untuk memfasilitasi interaksi dan keterlibatan anggota dan non anggota Unit Kegiatan Mahasiswa (UKM) serta memberikan informasi yang komprehensif tentang semua UKM yang ada di Universitas Negeri Surabaya. Dengan desain dan isi yang menarik dan informatif, website ini digunakan untuk meningkatkan pengalaman anggota UKM, calon anggota, dan pengguna umum yang ingin mengenal lebih dalam kegiatan mahasiswa di universitas. </p>
 	
 2.2 Fungsi Produk 
@@ -134,7 +135,7 @@ Dependensi:
 
 8. Pengalaman Pengguna: Website UKM harus dirancang dengan mempertimbangkan pengalaman pengguna. Dependensi pada umpan balik dari pengguna dan penyesuaian berdasarkan respons tersebut. </p>
 
-<br> 3. Kebutuhan Antarmuka Eksternal <br>
+## 3. Kebutuhan Antarmuka Eksternal
 3.1 Antarmuka Pengguna
 <li>Aplikasi menggunakan antarmuka berbasis web. </li>
 <li>Pengguna berinteraksi dengan sistem menggunakan keyboard dan mouse. </li> <br>
@@ -156,11 +157,12 @@ Memori (RAM) adalah komponen perangkat keras yang digunakan untuk menyimpan data
   <li>Database yang digunakan adalah msql. </li>
 <br> 3.4 Antarmuka Komunikasi
 <p> Website UKM ini merupakan suatu sistem yang dihubungkan ke jaringan komputer melalui komputer desktop, sehingga pihak yang bertugas (admin, manager) dapat memantau sistem melalui jaringan komputer. Dengan demikian, aliran informasi menjadi lebih lancar. </p>
-4. Fitur Sistem dan Kerangka Desain Fitur
+
+## 4. Fitur Sistem dan Kerangka Desain Fitur
 
 
-<br> 5. Persyaratan Nonfungsional Lainnya
-<br>5.1 Persyaratan Kinerja
+## 5. Persyaratan Nonfungsional Lainnya
+5.1 Persyaratan Kinerja
 Persyaratan kinerja adalah aspek kritis dalam merancang dan mengembangkan website UKM. Berikut adalah beberapa persyaratan kinerja yang perlu dipertimbangkan untuk website UKM:
 <li>Waktu Muat Halaman </li>
 Website memuat halaman utama dalam waktu yang cepat, biasanya dalam beberapa detik.
@@ -204,7 +206,12 @@ Data anggota dan catatan kegiatan UKM disimpan dengan enkripsi yang kuat dan han
 
 <br> 5.5 Atribut Bisnis
 <p>Atribut bisnis dalam website UKM adalah kunci yang mendukung pertumbuhan dan keberhasilan unit kegiatan mahasiswa tersebut. Salah satu atribut bisnis yang penting adalah kemampuan website untuk menarik anggota baru dan mendorong partisipasi aktif dalam kegiatan UKM. Dengan antarmuka yang menarik dan informasi yang mudah diakses, website dapat menjadi alat yang efektif dalam menarik minat mahasiswa untuk bergabung dan berkontribusi dalam UKM. Selain itu, kemampuan website dalam mempromosikan acara, kegiatan, atau produk UKM secara efektif juga merupakan atribut bisnis yang penting. Melalui pemasaran yang baik, website dapat meningkatkan visibilitas UKM dan menarik minat dari calon anggota atau sponsor potensial, yang dapat membantu dalam mendukung kegiatan UKM. Interaksi yang baik dengan pengguna, baik anggota UKM maupun pemangku kepentingan lainnya, juga menjadi faktor penting dalam membangun komunitas yang kuat dan berkelanjutan. Dengan demikian, atribut bisnis ini berkontribusi secara signifikan dalam mencapai tujuan dan kesuksesan UKM melalui website. </p>
-6. Persyaratan Lainnya
+
+## 6. Dokumentasi dan Penjelasan Kode
+Dokumentasi dan Penjelasan Kode:
+<br> https://github.com/feisauu/Website-UKM/files/13121739/Dokumentasi.dan.Penjelasan.Source.Code.Website.UKM.docx
+
+## 7. Persyaratan Lainnya
 <li>Admin: Pemilik yang merupakan seseorang yang bertanggungjawab untuk perawatan sistem dan serta bertanggungjawab terhadap operasional sistem.</li>
 <li>User: Karyawan yang merupakan seseorang yang bertanggungjawab terhadap pelayanan pemesanan.</li>
 <li>Website: Halaman informasi yang disediakan melalui jalur internet sehingga bisa diakses di seluruh dunia selama terhubung dengan internet. </li>
